@@ -18,6 +18,7 @@ import org.junit.runner.RunWith;
                // tags = "@sanity or @regression"  //Scenarios tagged with either @sanity or @regression
                // tags =  "@sanity and not @regression"  //Scenarios tagged with @sanity but not tagged with @regression
 
+                monochrome = true,
                 plugin = {"pretty",
                            "html:reports/myreport.html",
                            "rerun:target/rerun.txt",    //Mandatory to capture failures
